@@ -136,29 +136,29 @@ fetch('https://swapi.co/api/people/4/')
     listItemTwentyTwo.innerHTML = '<li>' + 'Name:   ' +  darkSide.name +'</li>'
     starWarsListFour.appendChild(listItemTwentyTwo);  
 
-    let listItemSixteen = document.createElement('li'); 
-    listItemSixteen.innerHTML = '<li>' + 'Height: ' + lightSide.height +'</li>'
-    starWarsListThree.appendChild(listItemSixteen);  
+    let listItemTwentyThree = document.createElement('li'); 
+    listItemTwentyThree.innerHTML = '<li>' + 'Height: ' + darkSide.height +'</li>'
+    starWarsListFour.appendChild(listItemTwentyThree);  
 
-    let listItemSeventeen = document.createElement('li'); 
-    listItemSeventeen.innerHTML = '<li>' + 'Mass: ' + lightSide.mass +'</li>'
-    starWarsListThree.appendChild(listItemSeventeen);  
+    let listItemTwentyFive = document.createElement('li'); 
+    listItemTwentyFive.innerHTML = '<li>' + 'Mass: ' + darkSide.mass +'</li>'
+    starWarsListFour.appendChild(listItemTwentyFive);  
 
-    let listItemEighteen = document.createElement('li'); 
-    listItemEighteen.innerHTML = '<li>' + 'Hair Color: ' + lightSide.hair_color +'</li>'
-    starWarsListThree.appendChild(listItemEighteen); 
+    let listItemTwentySix = document.createElement('li'); 
+    listItemTwentySix.innerHTML = '<li>' + 'Hair Color: ' + darkSide.hair_color +'</li>'
+    starWarsListFour.appendChild(listItemTwentySix); 
     
-    let listItemNineteen = document.createElement('li'); 
-    listItemNineteen.innerHTML = '<li>' + 'Eye Color: ' + lightSide.eye_color +'</li>'
-    starWarsListThree.appendChild(listItemNineeen);  
+    let listItemTwentySeven = document.createElement('li'); 
+    listItemTwentySeven.innerHTML = '<li>' + 'Eye Color: ' + darkSide.eye_color +'</li>'
+    starWarsListFour.appendChild(listItemTwentySeven);  
 
-    let listItemTwenty = document.createElement('li'); 
-    listItemTwenty.innerHTML = '<li>' + 'Birth Year: ' + lightSide.birth_year +'</li>'
-    starWarsListThree.appendChild(listItemTwenty);  
+    let listItemTwentyEight = document.createElement('li'); 
+    listItemTwentyEight.innerHTML = '<li>' + 'Birth Year: ' + darkSide.birth_year +'</li>'
+    starWarsListFour.appendChild(listItemTwentyEight);  
 
-    let listItemTwentyOne = document.createElement('li'); 
-    listItemTwentyOne.innerHTML = '<li>' + 'Gender: ' + lightSide.gender +'</li>'
-    starWarsListThree.appendChild(listItemTwentyOne);  
+    let listItemTwentyNine = document.createElement('li'); 
+    listItemTwentyNine.innerHTML = '<li>' + 'Gender: ' + darkSide.gender +'</li>'
+    starWarsListFour.appendChild(listItemTwentyFour);  
   })
 });
  
