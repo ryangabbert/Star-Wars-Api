@@ -1,0 +1,26 @@
+#containerTwo{
+text-align: center;
+background-image: url("https://images.pexels.com/photos/5439/earth-space.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+background-size: cover;
+color: black;
+padding: 350px 800px 0px 800px;
+
+}
+.row{
+    width: 700px;
+    height: 500px;
+    margin: -230px 0px 200px -455px;
+    padding: 10px;
+
+}
+.results{
+    width: 650px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+#contentList{
+    list-style-type: none;
+}
+#HyperSpaceButton{
+    border-radius: 100%;
+}

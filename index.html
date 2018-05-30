@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars Character Generator</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="api-project.css"> 
+
+</head>
+<body>
+    <style>
+        .jumbotron{ 
+            margin: 0px 0px 0px 0px;
+            background-image: url("https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+            background-size: cover;
+            color: yellow;
+            height: 800px;
+            text-align: center;
+        }
+    </style>
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Star Wars</h1>
+                  <p class="lead">A Long Time Ago In A Galaxy Far Far Away...</p>
+                  <button type="button" class="btn btn-danger btn-lg btn-block" id="HyperSpaceButton" onclick="scrollWin(0, 800)">Enter HyperSpace</button>
+                </div>
+              </div>
+              <div class="container" id="containerTwo">
+                    <div class="row">
+                            <div class="col-md-offset-2 col-md-8"></div>
+                            <div class="controls">
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn btn-danger" id="btn-one">Luke Skywalker</button>
+                                            <button type="button" class="btn btn-danger" id="btn-two">C-3PO</button>
+                                            <button type="button" class="btn btn-danger" id="btn-three">R2-D2</button>
+                                            <button type="button" class="btn btn-danger" id="btn-four">Darth Vader</button>
+                                            <button type="button" class="btn btn-danger" id="btn-five">Leia Organa</button>
+                                            <button type="button" class="btn btn-danger" id="btn-six">Obi-Wan Kenobi</button>
+                                          </div>
+                                </div>
+                                <!--Results Section-->
+                                <div class="results">
+                                    <!--Results Navigation-->
+                                    <!--Results From Request-->
+                                    <ul id="contentList">
+                                            <!--The JavaScript will load items here-->
+                                        ​
+                                        </ul>
+                                        ​
+                                    <section>
+                                    </section>
+                                </div>
+                                <!-- <div class="col-"></div>
+                                <div class="col-"></div> -->
+                    </div>
+                </div>
+                <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="api-project.js"></script>
+</body>
+</html>
